@@ -40,12 +40,12 @@ Package.onUse(function(api) {
   ], ['client']);
 });
 
-Package.onTest(function(api) {
-  api.use('ecmascript');
-  api.use('coffeescript');
-  api.use('tinytest');
-  api.use('codefabric:meteor-shopify');
+// Package.onTest(function(api) {
+//   api.use('ecmascript');
+//   api.use('coffeescript');
+//   api.use('tinytest');
+//   api.use('codefabric:meteor-shopify');
 
-  api.addFiles('tests/client/tests.coffee', 'client');
-  api.addFiles('tests/server/tests.coffee', 'server');
-});
+//   api.addFiles('tests/client/tests.coffee', 'client');
+//   api.addFiles('tests/server/tests.coffee', 'server');
+// });
