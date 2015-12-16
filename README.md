@@ -12,4 +12,6 @@ Details of how (and why) this package was created can be found in the [CodeFabri
 
 Include the package in your project:
 
-` meteor add codefabric:meteor-shopify
+```
+meteor add codefabric:meteor-shopify
+```
